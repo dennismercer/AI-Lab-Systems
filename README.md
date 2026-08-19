@@ -80,6 +80,26 @@ AI-Lab-Systems/
 
 This structure is planned and will be created incrementally as system information becomes available.
 
+## Adding or Updating a System
+
+Each computer should update its own dedicated profile rather than placing complete diagnostic output directly in this README.
+
+1. Clone or pull the latest version of this repository on the system being documented.
+2. Read this README, especially the Privacy and Security requirements.
+3. Collect current hardware, operating-system, storage, accelerator, and AI-runtime information.
+4. Review and sanitize all diagnostic output before adding it to the repository.
+5. Create or update the matching profile under `systems/`:
+   - `systems/minisforum.md`
+   - `systems/lenovo-legion.md`
+   - `systems/surface-laptop-studio.md`
+   - `systems/surface-laptop-snapdragon.md`
+6. Update the Lab Systems summary table in this README only when the system role or profile status changes.
+7. Commit the profile and summary-table update together with a clear message identifying the system.
+8. Pull the latest changes before pushing. If another system is being updated concurrently, use a separate branch and pull request to avoid conflicting README edits.
+9. Verify the rendered files on GitHub after the push.
+
+Do not commit raw `Get-ComputerInfo`, CIM, storage, driver, or network exports. Preserve only sanitized, inventory-relevant values. When a value cannot be verified safely, mark it as pending rather than guessing.
+
 ## System Profile Requirements
 
 Each system profile should record:
