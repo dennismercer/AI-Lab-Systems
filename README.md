@@ -17,7 +17,7 @@ It supports:
 
 | System | Intended role | Status |
 | --- | --- | --- |
-| MINISFORUM system | Lightweight local AI workloads | Specifications pending |
+| MINISFORUM system | Lightweight through medium local AI workloads and Windows x64 AI development | Initial profile available |
 | Lenovo Legion | Heavyweight local AI workloads | Specifications pending |
 | Microsoft Surface Laptop Studio | Windows mobile AI and development workstation | Specifications pending |
 | Microsoft Surface Laptop, 7th Edition | Heavy-work mobile system and ARM64 local AI experimentation | Initial profile available |
@@ -166,7 +166,8 @@ Hardware, drivers, operating systems, runtimes, and model support change over ti
 
 - Repository structure implemented
 - Root Codex instructions added
+- MINISFORUM system profile documented
 - Surface Laptop ARM64 profile documented
 - Placeholder profiles created for the remaining systems
 - Model compatibility, software inventory, benchmark methodology, and reusable templates initialized
-- Remaining system specifications and verified benchmark results pending
+- Remaining Lenovo Legion and Surface Laptop Studio specifications and verified benchmark results pending
