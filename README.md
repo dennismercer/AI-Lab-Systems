@@ -52,7 +52,7 @@ It supports:
 
 Ollama on Windows ARM64 does not currently provide the same GPU or NPU acceleration options available on supported NVIDIA and AMD systems. Local inference should therefore be evaluated as primarily CPU-bound unless runtime diagnostics demonstrate otherwise.
 
-## Planned Repository Structure
+## Repository Structure
 
 ```text
 AI-Lab-Systems/
@@ -78,7 +78,7 @@ AI-Lab-Systems/
     `-- benchmark-record.md
 ```
 
-This structure is planned and will be created incrementally as system information becomes available.
+This structure is implemented and will be populated incrementally as verified system information and benchmark results become available.
 
 ## Adding or Updating a System
 
@@ -164,7 +164,9 @@ Hardware, drivers, operating systems, runtimes, and model support change over ti
 
 ## Current Status
 
-- Repository initialized
+- Repository structure implemented
+- Root Codex instructions added
 - Surface Laptop ARM64 profile documented
-- Remaining system specifications pending
-- Detailed profiles, model matrix, and benchmark methodology not yet created
+- Placeholder profiles created for the remaining systems
+- Model compatibility, software inventory, benchmark methodology, and reusable templates initialized
+- Remaining system specifications and verified benchmark results pending
